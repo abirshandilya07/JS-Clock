@@ -2,6 +2,9 @@ let a;
 let date;
 let time;  
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+function sayHello(){
+    alert("Hello from Abir Shandilya")
+}
 setInterval(() => {
     a = new Date();
     let hour = a.getHours();
